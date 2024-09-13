@@ -91,7 +91,7 @@
 	(footprint "Library:LINX_CONBNC002"
 		(layer "F.Cu")
 		(uuid "0377933e-4595-48c2-a080-a175b8a7439b")
-		(at 97.29175 43.1975 180)
+		(at 97.1345 43.1975 180)
 		(property "Reference" "J5"
 			(at -4.445 -9.525 0)
 			(layer "F.SilkS")
@@ -879,7 +879,7 @@
 	(footprint "Library:LINX_CONBNC002"
 		(layer "F.Cu")
 		(uuid "2e8c97b0-1eba-4cc9-8f13-81b405c62f46")
-		(at 67.89175 43.1975 180)
+		(at 67.57725 43.1975 180)
 		(property "Reference" "J3"
 			(at -4.445 -9.525 0)
 			(layer "F.SilkS")
@@ -2431,7 +2431,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "afae2f7b-beab-4f87-8734-7403ffdd5ad9")
-		(at 125.4 54.4975 180)
+		(at 125.4 54.3975 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
@@ -2864,6 +2864,18 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "b85d69ad-308c-4786-b605-102d4cf8b579")
+	)
+	(gr_text "Flir Blackfly GPIO Breakout Board v1.0\nDewan Lab, Florida State University, 2024\nhttps://github.com/OlfactoryBehaviorLab/flir_blackfly_interface"
+		(at 82.9 80.7 0)
+		(layer "F.SilkS")
+		(uuid "fa9bf0e9-6b94-482f-9480-7b1012c4b1c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "${REFERENCE}"
 		(at 71.6625 67.9 0)
@@ -4133,33 +4145,6 @@
 				(xy 31.103334 41.972896) (xy 31.1005 41.946538) (xy 31.1005 34.7245) (xy 31.120185 34.657461) (xy 31.172989 34.611706)
 				(xy 31.2245 34.6005) (xy 133.4755 34.6005)
 			)
-		)
-	)
-	(group ""
-		(uuid "6a3fc28b-db02-4693-83fc-d7a36a1a373d")
-		(members "2e8c97b0-1eba-4cc9-8f13-81b405c62f46" "36eb3a1f-892f-4c99-ab79-cb866c8372f3"
-			"51a10e8d-ed5e-4387-9ffe-d30a1ae4c249" "81579b56-3ba7-4865-a351-63fe095b79ad"
-			"c1e27a09-8b39-4b55-a8b1-dfcc63133e3e" "ca753901-89a0-4328-8759-3e6b63175255"
-		)
-	)
-	(group ""
-		(uuid "6dd0a587-c310-40e6-b331-57eb81d6a9c5")
-		(members "0377933e-4595-48c2-a080-a175b8a7439b" "3d04babb-cc60-4616-a9e5-a2db9934922a"
-			"6b3a1ac5-33f7-4526-bb07-ad172355698a" "d90c4bf2-1a98-41d3-9a79-33c8d350011e"
-		)
-	)
-	(group ""
-		(uuid "aea85c54-e041-4291-95dd-a8fbb822e2df")
-		(members "1e215586-1322-4b38-9a63-5249fc0092f3" "4627f476-7e7f-4276-8b69-1489613cb92b"
-			"82d033a0-c2fd-45dd-b4ad-e835fa18c4fb" "b2ea043d-6114-4783-a0ec-287804e8ec0a"
-			"ca25d073-f3e0-4738-89e8-ccd932bf51a5" "e59dbb32-bc22-4f87-a41f-65c2d8c0669a"
-		)
-	)
-	(group ""
-		(uuid "f38a45a1-7350-425c-9e4a-0170aa7e97cc")
-		(members "343b259c-1775-4e99-a345-b22af0ae258b" "7d47dd57-cd7e-4efb-ac34-b1da4ac27cd4"
-			"a2e39289-0fbb-415c-8f95-1689874f2cb7" "afae2f7b-beab-4f87-8734-7403ffdd5ad9"
-			"b0ef91e0-d68b-460c-9591-3238d4f0cb71" "ebe97cef-7bc4-44be-8dd2-934758ac38b1"
 		)
 	)
 )
