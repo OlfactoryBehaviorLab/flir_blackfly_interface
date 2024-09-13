@@ -1809,15 +1809,15 @@
 			(pintype "passive+no_connect")
 			(uuid "7745752f-424a-4dd5-b2ba-1c540dd59d0e")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_54602-x08_Horizontal.wrl"
+		(model "${KIPRJMOD}/parts/54602_908LF/54602-908LF.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 4.5 -6.25 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
