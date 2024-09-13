@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Flir Blackfly S GPIO Breakout Board")
+		(date "2024-09-12")
+		(rev "v1.0")
+		(company "Dewan Lab, Florida State University")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
@@ -92,7 +98,7 @@
 		(layer "F.Cu")
 		(uuid "0377933e-4595-48c2-a080-a175b8a7439b")
 		(at 97.1345 43.1975 180)
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at -4.445 -9.525 0)
 			(layer "F.SilkS")
 			(uuid "04278f32-b1bf-48a4-90cc-c26087981a8b")
@@ -105,7 +111,7 @@
 		)
 		(property "Value" "Out-Line1-Isolated"
 			(at 1.27 -7.62 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "279b63b8-8159-40fd-8529-3978f5410e5f")
 			(effects
 				(font
@@ -491,6 +497,7 @@
 		(property "Reference" "H3"
 			(at 0 -5.3 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7582890e-df07-4b26-ab18-a2f3df29a068")
 			(effects
 				(font
@@ -502,6 +509,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 5.3 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0f84c03a-1d17-4bb6-93ab-0bbfbe465ff5")
 			(effects
 				(font
@@ -608,6 +616,7 @@
 		(property "Reference" "H1"
 			(at 0 -5.3 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e307d698-89f8-4eb2-a2eb-0f1058cf9f9e")
 			(effects
 				(font
@@ -619,6 +628,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 5.3 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b374867b-0fc2-478e-b69d-eff05d39d205")
 			(effects
 				(font
@@ -720,7 +730,7 @@
 		(layer "F.Cu")
 		(uuid "1e215586-1322-4b38-9a63-5249fc0092f3")
 		(at 38.02 43.1975 180)
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at -4.445 -9.525 0)
 			(layer "F.SilkS")
 			(uuid "857951e4-d9c7-4d04-9195-3196b04b0c5f")
@@ -733,7 +743,7 @@
 		)
 		(property "Value" "In-Line3"
 			(at 1.27 -7.62 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "983fd263-165a-48f1-9128-52454090a8c2")
 			(effects
 				(font
@@ -1114,7 +1124,7 @@
 		(layer "F.Cu")
 		(uuid "2e8c97b0-1eba-4cc9-8f13-81b405c62f46")
 		(at 67.57725 43.1975 180)
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at -4.445 -9.525 0)
 			(layer "F.SilkS")
 			(uuid "e1000345-7544-49f5-99db-460d406a0948")
@@ -1127,7 +1137,7 @@
 		)
 		(property "Value" "In/Out-Line2"
 			(at 1.27 -7.62 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "0ca7cba4-bb65-4448-836e-80ec53b9059a")
 			(effects
 				(font
@@ -1513,6 +1523,7 @@
 		(property "Reference" "H2"
 			(at 0 -5.3 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e7c4a61c-ea68-4b60-92cc-654ede66971e")
 			(effects
 				(font
@@ -1639,8 +1650,8 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.65 360)
-			(layer "F.Fab")
+			(at 0 1.65 0)
+			(layer "F.SilkS")
 			(uuid "656cbcfb-5c21-4f06-852d-d375ebade7a4")
 			(effects
 				(font
@@ -1840,7 +1851,7 @@
 		(at 69.6175 67.7)
 		(descr "8 Pol Shallow Latch Connector, Modjack, RJ45 (https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf)")
 		(tags "RJ45")
-		(property "Reference" "J1"
+		(property "Reference" "J5"
 			(at 4.445 -5 0)
 			(layer "F.SilkS")
 			(uuid "0dd304e2-925d-4946-aaf5-a14471fa2bcb")
@@ -2189,7 +2200,7 @@
 		)
 		(property "Value" "In-Line0-Isolated"
 			(at 1.27 -7.62 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "88b2ba4c-bcf5-4fe4-a0e9-ceaad29a6cc7")
 			(effects
 				(font
@@ -2584,8 +2595,8 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.65 360)
-			(layer "F.Fab")
+			(at 0 1.65 0)
+			(layer "F.SilkS")
 			(uuid "f9a1722e-0d8b-44c7-8231-74082282cb25")
 			(effects
 				(font
@@ -3481,7 +3492,7 @@
 		(at 125.4 54.3975 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 0 -1.65 360)
 			(layer "F.SilkS")
 			(uuid "5424d953-b638-406c-83c3-81889bd67f74")
@@ -3493,8 +3504,8 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.65 360)
-			(layer "F.Fab")
+			(at 0 1.65 0)
+			(layer "F.SilkS")
 			(uuid "c1e0f2d6-471d-47b5-af40-21512c024ed5")
 			(effects
 				(font
@@ -3697,6 +3708,7 @@
 		(property "Reference" "H4"
 			(at 0 -5.3 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e6f14e5d-1ccc-4126-a4ba-b47ddfaf0dcc")
 			(effects
 				(font
@@ -3708,6 +3720,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 5.3 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "eb62127b-13ee-4f29-a581-c07e6fab89dd")
 			(effects
 				(font
@@ -3811,7 +3824,7 @@
 		(at 96 54.3975 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 0 -1.65 360)
 			(layer "F.SilkS")
 			(uuid "7fda145c-2eff-46d8-ab1e-22e528e7bccf")
@@ -3823,8 +3836,8 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.65 360)
-			(layer "F.Fab")
+			(at 0 1.65 0)
+			(layer "F.SilkS")
 			(uuid "5788230a-b224-41ee-964e-673f9da95f11")
 			(effects
 				(font
@@ -4022,7 +4035,7 @@
 		(layer "F.Cu")
 		(uuid "f91fe6a0-9699-4afa-ac9c-a98f4fcbcc63")
 		(at 54.0856 69.91234)
-		(property "Reference" "OSHW_COPPER_10MM"
+		(property "Reference" "OSHW_COPPER_1"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -4270,7 +4283,7 @@
 		(layer "Edge.Cuts")
 		(uuid "b85d69ad-308c-4786-b605-102d4cf8b579")
 	)
-	(gr_text "Flir Blackfly GPIO Breakout Board v1.0\nDewan Lab, Florida State University, 2024\nhttps://github.com/OlfactoryBehaviorLab/flir_blackfly_interface"
+	(gr_text "Flir Blackfly S GPIO Breakout Board v1.0\nDewan Lab, Florida State University, 2024\nhttps://github.com/OlfactoryBehaviorLab/flir_blackfly_interface"
 		(at 82.9 80.7 0)
 		(layer "F.SilkS")
 		(uuid "fa9bf0e9-6b94-482f-9480-7b1012c4b1c6")
@@ -4280,17 +4293,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(gr_text "${REFERENCE}"
-		(at 71.6625 67.9 0)
-		(layer "F.Fab")
-		(uuid "5ffc3a20-37ff-4de3-af8f-ed322d6b5e10")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
 		)
 	)
 	(segment
@@ -4374,22 +4376,6 @@
 		(uuid "c1e27a09-8b39-4b55-a8b1-dfcc63133e3e")
 	)
 	(segment
-		(start 35.48 53.9925)
-		(end 35.8875 54.4)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "ca25d073-f3e0-4738-89e8-ccd932bf51a5")
-	)
-	(segment
-		(start 65.35175 54.0565)
-		(end 65.69275 54.3975)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "ca753901-89a0-4328-8759-3e6b63175255")
-	)
-	(segment
 		(start 37.8 54.4)
 		(end 41.3 57.9)
 		(width 0.2)
@@ -4438,28 +4424,12 @@
 		(uuid "c9a4a1d0-0b3f-43c6-9e9e-92ade1d9033d")
 	)
 	(segment
-		(start 37.7125 54.4)
-		(end 37.8 54.4)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 4)
-		(uuid "ca956072-d673-4d79-b4f7-e841f6ac53b0")
-	)
-	(segment
 		(start 67 57.9)
 		(end 67.11775 58.01775)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
 		(uuid "d1697824-a0ee-4347-a326-d9b54aed142a")
-	)
-	(segment
-		(start 38.02 54.0925)
-		(end 37.7125 54.4)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 4)
-		(uuid "e59dbb32-bc22-4f87-a41f-65c2d8c0669a")
 	)
 	(segment
 		(start 124.15175 48.2775)
@@ -4476,14 +4446,6 @@
 		(layer "F.Cu")
 		(net 6)
 		(uuid "6b3a1ac5-33f7-4526-bb07-ad172355698a")
-	)
-	(segment
-		(start 124.15175 54.16175)
-		(end 124.4875 54.4975)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 6)
-		(uuid "ebe97cef-7bc4-44be-8dd2-934758ac38b1")
 	)
 	(segment
 		(start 67.89175 48.2775)
@@ -4510,14 +4472,6 @@
 		(uuid "7ca70e96-c71b-4985-ad2a-bda27eb9c444")
 	)
 	(segment
-		(start 67.89175 54.0235)
-		(end 67.51775 54.3975)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 7)
-		(uuid "81579b56-3ba7-4865-a351-63fe095b79ad")
-	)
-	(segment
 		(start 67.95 66.65)
 		(end 71.1075 66.65)
 		(width 0.2)
@@ -4532,22 +4486,6 @@
 		(layer "F.Cu")
 		(net 7)
 		(uuid "b5a55174-c9e3-41f6-81e3-ef3e284b4a3e")
-	)
-	(segment
-		(start 70.8875 65.16)
-		(end 71.102425 65.16)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 8)
-		(uuid "948635ee-cff9-46e2-a4c9-c0bedde9ca8a")
-	)
-	(segment
-		(start 126.69175 54.11825)
-		(end 126.3125 54.4975)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 8)
-		(uuid "a2e39289-0fbb-415c-8f95-1689874f2cb7")
 	)
 	(segment
 		(start 126.69175 48.2775)
