@@ -1484,7 +1484,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 106.68 48.26 0)
 			(effects
 				(font
@@ -1551,7 +1551,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 106.68 71.12 0)
 			(effects
 				(font
@@ -1751,7 +1751,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LINX_CONBNC002"
 			(at 106.68 43.18 0)
 			(effects
 				(font
@@ -1885,7 +1885,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
 			(at 26.67 33.655 90)
 			(effects
 				(font
@@ -1971,7 +1971,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LINX_CONBNC002"
 			(at 106.68 91.44 0)
 			(effects
 				(font
@@ -2039,7 +2039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LINX_CONBNC002"
 			(at 106.68 20.32 0)
 			(effects
 				(font
@@ -2106,7 +2106,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 106.68 96.52 0)
 			(effects
 				(font
@@ -2174,7 +2174,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LINX_CONBNC002"
 			(at 106.68 66.04 0)
 			(effects
 				(font
@@ -2241,7 +2241,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 106.68 24.13 0)
 			(effects
 				(font
