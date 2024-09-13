@@ -634,6 +634,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GNDREF"
 			(power)
 			(pin_numbers hide)
@@ -798,6 +900,18 @@
 		(uuid "37ca5e91-8520-482e-9695-e3ab737fb9a2")
 	)
 	(junction
+		(at 58.42 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c343221-8982-4640-9c87-42d19587a750")
+	)
+	(junction
+		(at 58.42 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "614f2eee-63ae-44d7-92de-feecda2eed4e")
+	)
+	(junction
 		(at 99.06 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -814,6 +928,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7898fadd-dc13-41ef-b7c9-2f1d64891a4f")
+	)
+	(junction
+		(at 58.42 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bd8db31-ca8d-4ab2-8c98-dc3fcab961a5")
 	)
 	(junction
 		(at 99.06 43.18)
@@ -838,6 +958,16 @@
 			(type default)
 		)
 		(uuid "0bfb65f8-13fc-4ad8-9a35-939d139422e5")
+	)
+	(wire
+		(pts
+			(xy 44.45 67.31) (xy 58.42 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14dddf4f-d981-40ed-87c6-638c1c282915")
 	)
 	(wire
 		(pts
@@ -971,6 +1101,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 57.15) (xy 58.42 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8664df-e35d-4154-a994-1b539e77ee27")
+	)
+	(wire
+		(pts
 			(xy 114.3 96.52) (xy 114.3 91.44)
 		)
 		(stroke
@@ -1011,6 +1151,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 87.63) (xy 44.45 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "573fe85f-94b5-4e5a-93d2-96526cd11b48")
+	)
+	(wire
+		(pts
 			(xy 104.14 24.13) (xy 99.06 24.13)
 		)
 		(stroke
@@ -1041,6 +1191,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 67.31) (xy 58.42 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0198b0-58c7-4fdf-bfb5-762d6e254ed6")
+	)
+	(wire
+		(pts
 			(xy 99.06 48.26) (xy 99.06 43.18)
 		)
 		(stroke
@@ -1058,6 +1218,26 @@
 			(type default)
 		)
 		(uuid "8938df46-0c86-455c-8448-5691d91108a4")
+	)
+	(wire
+		(pts
+			(xy 44.45 57.15) (xy 58.42 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c96819b-f271-4710-a3c6-58ec4f0059bd")
+	)
+	(wire
+		(pts
+			(xy 58.42 87.63) (xy 58.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "901f789f-a8c8-4854-8577-650875e854a1")
 	)
 	(wire
 		(pts
@@ -1171,6 +1351,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 77.47) (xy 58.42 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd24fc70-9508-4405-9a8b-ae63a5bd9041")
+	)
+	(wire
+		(pts
 			(xy 99.06 91.44) (xy 104.14 91.44)
 		)
 		(stroke
@@ -1228,6 +1418,16 @@
 			(type default)
 		)
 		(uuid "e5c71415-90c4-4a8a-8c4f-3192a1c32a44")
+	)
+	(wire
+		(pts
+			(xy 44.45 77.47) (xy 58.42 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2787195-067a-4a7e-a67b-db22a41a61dc")
 	)
 	(wire
 		(pts
@@ -1527,6 +1727,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 41.91 67.31 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "622e801e-7a70-488c-8a5b-cb46e7a9f8a8")
+		(property "Reference" "H2"
+			(at 40.64 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 40.64 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad"
+			(at 41.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 41.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b06429ce-079d-4404-b7a5-6155741aca0f")
+		)
+		(instances
+			(project "flir_blackfly_interface"
+				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 106.68 71.12 90)
 		(unit 1)
@@ -1588,6 +1853,136 @@
 			(project "flir_blackfly_interface"
 				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 41.91 57.15 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "852ca3ef-b8df-4a83-9bd8-de23dc2ffe69")
+		(property "Reference" "H1"
+			(at 40.64 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 40.64 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad"
+			(at 41.91 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 41.91 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa52d9d7-d335-4f0c-b5a4-bc4bce5802c2")
+		)
+		(instances
+			(project ""
+				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 41.91 87.63 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f056165-e65f-4747-be64-e51449401ceb")
+		(property "Reference" "H4"
+			(at 40.64 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 40.64 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad"
+			(at 41.91 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 41.91 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfcd1438-1283-467b-8b5e-71ce2de97bc2")
+		)
+		(instances
+			(project "flir_blackfly_interface"
+				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -1788,6 +2183,71 @@
 			(project "flir_blackfly_interface"
 				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 41.91 77.47 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcda7a04-36e6-49b5-a6b2-629f0db8f10f")
+		(property "Reference" "H3"
+			(at 40.64 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 40.64 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad"
+			(at 41.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 41.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27f15342-d18a-40a5-8589-6db7cfe805fb")
+		)
+		(instances
+			(project "flir_blackfly_interface"
+				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -2008,6 +2468,72 @@
 			(project "flir_blackfly_interface"
 				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 58.42 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7032554-fbef-42b3-be75-6c21cd86a3bf")
+		(property "Reference" "#PWR04"
+			(at 58.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 58.42 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa832c4b-680d-4fc7-992d-2f50e4010e53")
+		)
+		(instances
+			(project "flir_blackfly_interface"
+				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
