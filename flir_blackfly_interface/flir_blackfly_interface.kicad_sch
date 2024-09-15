@@ -501,6 +501,175 @@
 				)
 			)
 		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers hide)
 			(pin_names
@@ -736,6 +905,316 @@
 				)
 			)
 		)
+		(symbol "Transistor_BJT:MMBT3904"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMBT3904"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMBT3904_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MMBT3904_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GNDREF"
 			(power)
 			(pin_numbers hide)
@@ -900,16 +1379,10 @@
 		(uuid "37ca5e91-8520-482e-9695-e3ab737fb9a2")
 	)
 	(junction
-		(at 58.42 77.47)
+		(at 215.9 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3c343221-8982-4640-9c87-42d19587a750")
-	)
-	(junction
-		(at 58.42 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "614f2eee-63ae-44d7-92de-feecda2eed4e")
+		(uuid "3ccd06b3-44c1-49f2-a7e5-1c2ad7b971a4")
 	)
 	(junction
 		(at 99.06 91.44)
@@ -924,16 +1397,22 @@
 		(uuid "6cdbafea-b076-4cf9-8231-ec0f7281069a")
 	)
 	(junction
+		(at 215.9 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7781547d-0774-46a0-add7-875eaf2c4812")
+	)
+	(junction
 		(at 99.06 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7898fadd-dc13-41ef-b7c9-2f1d64891a4f")
 	)
 	(junction
-		(at 58.42 67.31)
+		(at 215.9 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9bd8db31-ca8d-4ab2-8c98-dc3fcab961a5")
+		(uuid "8f648c64-7ec1-4a16-bb04-4629ed932d9c")
 	)
 	(junction
 		(at 99.06 43.18)
@@ -941,13 +1420,67 @@
 		(color 0 0 0 0)
 		(uuid "b83dca4a-a18b-4706-a866-d3cf52ae1c87")
 	)
+	(junction
+		(at 149.86 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bad4c10d-ce93-40df-b20f-06e88f3683e8")
+	)
+	(junction
+		(at 149.86 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d65859e4-bfaf-4130-9122-25ea8410ef65")
+	)
+	(junction
+		(at 149.86 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6a70567-4b45-4818-ad20-93af93e84fdf")
+	)
+	(no_connect
+		(at 58.42 87.63)
+		(uuid "27916ce0-4ccb-4464-89bf-a77414294404")
+	)
 	(no_connect
 		(at 36.83 26.67)
 		(uuid "2edfaa80-8de0-4cb4-a86d-bca66b1fff80")
 	)
 	(no_connect
+		(at 58.42 67.31)
+		(uuid "6735c8be-d02f-4a69-ac21-8937dc14fbe1")
+	)
+	(no_connect
 		(at 36.83 24.13)
 		(uuid "7c4fcab4-0be4-4ebc-adb1-eed565bb2197")
+	)
+	(no_connect
+		(at 58.42 57.15)
+		(uuid "93ae6341-3644-4c22-a48e-a7d6239c4019")
+	)
+	(no_connect
+		(at 58.42 77.47)
+		(uuid "95e9d746-41a7-445c-a044-497b1b12beee")
+	)
+	(wire
+		(pts
+			(xy 175.26 86.36) (xy 180.34 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "055808cf-a317-493b-8e81-93f096b9b033")
+	)
+	(wire
+		(pts
+			(xy 149.86 24.13) (xy 149.86 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06cb030c-472e-42d0-8dfd-207cfeba1d1e")
 	)
 	(wire
 		(pts
@@ -958,6 +1491,16 @@
 			(type default)
 		)
 		(uuid "0bfb65f8-13fc-4ad8-9a35-939d139422e5")
+	)
+	(wire
+		(pts
+			(xy 198.12 78.74) (xy 205.74 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12088b63-3d20-45c7-8727-4d82bfe366af")
 	)
 	(wire
 		(pts
@@ -1001,6 +1544,26 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 78.74) (xy 190.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a795ddb-6281-4635-96ba-5af59883cb33")
+	)
+	(wire
+		(pts
+			(xy 198.12 41.91) (xy 205.74 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e915fc-8ef9-42de-88c9-15fffc16321c")
+	)
+	(wire
+		(pts
 			(xy 99.06 24.13) (xy 99.06 20.32)
 		)
 		(stroke
@@ -1018,6 +1581,16 @@
 			(type default)
 		)
 		(uuid "27976be6-e1a3-4430-b19f-3e849a077660")
+	)
+	(wire
+		(pts
+			(xy 215.9 41.91) (xy 215.9 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb31e3e-da26-4683-9dc1-8ca0c88eba8c")
 	)
 	(wire
 		(pts
@@ -1081,6 +1654,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 59.69) (xy 215.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a29f316-6fba-41e6-893d-697cbad531d0")
+	)
+	(wire
+		(pts
 			(xy 113.03 66.04) (xy 121.92 66.04)
 		)
 		(stroke
@@ -1091,6 +1674,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 49.53) (xy 180.34 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44fb2623-d626-402d-a280-7c3d4f47bb68")
+	)
+	(wire
+		(pts
 			(xy 114.3 91.44) (xy 109.22 91.44)
 		)
 		(stroke
@@ -1098,16 +1691,6 @@
 			(type default)
 		)
 		(uuid "4997d772-4308-4a11-8404-9d158436ac3b")
-	)
-	(wire
-		(pts
-			(xy 58.42 57.15) (xy 58.42 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a8664df-e35d-4154-a994-1b539e77ee27")
 	)
 	(wire
 		(pts
@@ -1128,6 +1711,26 @@
 			(type default)
 		)
 		(uuid "4de73f6d-80d2-41ff-9934-338aecfe1450")
+	)
+	(wire
+		(pts
+			(xy 149.86 41.91) (xy 175.26 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ded7a53-6c0e-46df-901a-63067bced118")
+	)
+	(wire
+		(pts
+			(xy 149.86 24.13) (xy 175.26 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52db0cbe-9146-452f-8802-eeee54547cb2")
 	)
 	(wire
 		(pts
@@ -1171,6 +1774,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 59.69) (xy 215.9 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619d9eca-46be-4c19-8c26-b3f9910d381a")
+	)
+	(wire
+		(pts
 			(xy 99.06 71.12) (xy 99.06 66.04)
 		)
 		(stroke
@@ -1178,6 +1791,36 @@
 			(type default)
 		)
 		(uuid "62651922-f57b-4b46-8330-f6ed8d6084a4")
+	)
+	(wire
+		(pts
+			(xy 149.86 59.69) (xy 175.26 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "666b2d48-66a9-438c-a3be-94faec3679d8")
+	)
+	(wire
+		(pts
+			(xy 210.82 24.13) (xy 215.9 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68286e44-5457-4a2b-af4a-4fbbca8da10e")
+	)
+	(wire
+		(pts
+			(xy 149.86 20.32) (xy 149.86 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699f81dd-7821-4356-86dc-3feebd05850c")
 	)
 	(wire
 		(pts
@@ -1191,13 +1834,33 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 67.31) (xy 58.42 77.47)
+			(xy 149.86 78.74) (xy 175.26 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e0198b0-58c7-4fdf-bfb5-762d6e254ed6")
+		(uuid "6e71d524-2650-4a11-9002-faafaca87482")
+	)
+	(wire
+		(pts
+			(xy 175.26 31.75) (xy 180.34 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73245b83-79c2-4828-9032-fa3640af49b5")
+	)
+	(wire
+		(pts
+			(xy 215.9 24.13) (xy 215.9 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83fcf236-964c-4368-b9e4-c18d9e26a5e9")
 	)
 	(wire
 		(pts
@@ -1221,6 +1884,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 24.13) (xy 190.5 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "897b5e50-df4d-4bb3-be46-522db87f8a5d")
+	)
+	(wire
+		(pts
 			(xy 44.45 57.15) (xy 58.42 57.15)
 		)
 		(stroke
@@ -1231,13 +1904,23 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 87.63) (xy 58.42 91.44)
+			(xy 175.26 67.31) (xy 180.34 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "901f789f-a8c8-4854-8577-650875e854a1")
+		(uuid "8eed0619-f2fd-4ea9-a082-af69191fbe3b")
+	)
+	(wire
+		(pts
+			(xy 185.42 41.91) (xy 190.5 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9724a67b-5407-4010-be91-aa9cfa95847e")
 	)
 	(wire
 		(pts
@@ -1301,6 +1984,26 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 78.74) (xy 215.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6fa5ef2-ab44-4ac8-b935-07ad030ec09e")
+	)
+	(wire
+		(pts
+			(xy 185.42 59.69) (xy 190.5 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9046bce-79d2-4f43-adbf-fd19f2707c0a")
+	)
+	(wire
+		(pts
 			(xy 99.06 96.52) (xy 99.06 91.44)
 		)
 		(stroke
@@ -1341,6 +2044,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 78.74) (xy 215.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c73e81ef-0af4-4e55-9548-cb21cbaea242")
+	)
+	(wire
+		(pts
 			(xy 113.03 20.32) (xy 118.11 20.32)
 		)
 		(stroke
@@ -1351,16 +2064,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 77.47) (xy 58.42 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd24fc70-9508-4405-9a8b-ae63a5bd9041")
-	)
-	(wire
-		(pts
 			(xy 99.06 91.44) (xy 104.14 91.44)
 		)
 		(stroke
@@ -1368,6 +2071,16 @@
 			(type default)
 		)
 		(uuid "cd364310-2a70-4bb2-a75c-2d6ac7cc2961")
+	)
+	(wire
+		(pts
+			(xy 149.86 59.69) (xy 149.86 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7909d4-af9f-45d2-858a-6db0d8d08dd2")
 	)
 	(wire
 		(pts
@@ -1398,6 +2111,16 @@
 			(type default)
 		)
 		(uuid "e0267deb-a3c7-41fc-a3d4-d864c4db2455")
+	)
+	(wire
+		(pts
+			(xy 149.86 41.91) (xy 149.86 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e03ad8f5-d785-476d-9f8f-95ce06fdab8f")
 	)
 	(wire
 		(pts
@@ -1438,6 +2161,36 @@
 			(type default)
 		)
 		(uuid "f6c9d72b-8f57-4a5f-8e51-6f7124600e4c")
+	)
+	(wire
+		(pts
+			(xy 210.82 41.91) (xy 215.9 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7baf26f-2434-4a1f-838b-dba243f9685a")
+	)
+	(wire
+		(pts
+			(xy 198.12 24.13) (xy 205.74 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f812ee4e-5c5d-402e-abb5-fe038ccd63c1")
+	)
+	(wire
+		(pts
+			(xy 198.12 59.69) (xy 205.74 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feeb5b15-4784-4b0a-b75c-9521175f38a1")
 	)
 	(global_label "Input{slash}Output(Line2)"
 		(shape input)
@@ -1483,6 +2236,28 @@
 			)
 		)
 	)
+	(global_label "OptoOut(Line1)"
+		(shape input)
+		(at 175.26 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ab41070-ed26-4ce4-b752-9bbf8ddcca43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.942 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OptoGround"
 		(shape input)
 		(at 127 78.74 0)
@@ -1501,6 +2276,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OptoInput(Line0)"
+		(shape input)
+		(at 175.26 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "41cc606b-6852-4235-aa53-6687a997bca5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.3697 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1562,6 +2359,28 @@
 		(uuid "637ed866-f24e-4056-8810-1cc253ca618b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 79.4439 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Input{slash}Output(Line2)"
+		(shape input)
+		(at 175.26 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81dbc20f-8ba6-469b-827b-60d8b99f441c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.1645 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,6 +2456,28 @@
 			)
 		)
 	)
+	(global_label "Input(Line3)"
+		(shape input)
+		(at 175.26 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d76a97bc-c31a-4493-b1ed-15d1d1001284")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.7239 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OptoOut(Line1)"
 		(shape input)
 		(at 41.91 34.29 0)
@@ -1656,6 +2497,278 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 208.28 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a3b75ff-b8e7-4c01-84ad-f0613703a7ac")
+		(property "Reference" "R7"
+			(at 208.28 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Small_US"
+			(at 208.28 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 208.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba546a1f-d050-4151-bc94-f48c3de73993")
+		)
+		(pin "2"
+			(uuid "ca17ebb4-a189-402c-8124-48db6aa54a86")
+		)
+		(instances
+			(project "flir_blackfly_interface"
+				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 208.28 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24e0293a-adae-4613-8f60-c189c10051b6")
+		(property "Reference" "R6"
+			(at 208.28 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Small_US"
+			(at 208.28 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 208.28 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddb3a496-fbca-4d29-bc0a-bafd5670c081")
+		)
+		(pin "2"
+			(uuid "f7049591-172d-4108-8a09-749b4b84602f")
+		)
+		(instances
+			(project "flir_blackfly_interface"
+				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 194.31 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25d83148-d289-4009-aec5-108ac9636f93")
+		(property "Reference" "D2"
+			(at 195.8975 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 195.8975 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 194.31 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "361dfedd-002e-489c-ae32-61ce66332fb7")
+		)
+		(pin "2"
+			(uuid "0ecfee67-87dc-4d4b-adc1-0bbeb573edc9")
+		)
+		(instances
+			(project "flir_blackfly_interface"
+				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 194.31 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cb1aa06-033b-4319-ba3c-58677f9964c4")
+		(property "Reference" "D4"
+			(at 195.8975 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 195.8975 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 194.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "330b2354-0b24-473a-be95-55af9ea9e802")
+		)
+		(pin "2"
+			(uuid "7854f798-ab00-4d6f-bc58-bdead7827813")
+		)
+		(instances
+			(project "flir_blackfly_interface"
+				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
+					(reference "D4")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1721,6 +2834,146 @@
 			(project "flir_blackfly_interface"
 				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 149.86 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "522e549a-5225-4384-a41b-1a6c5f650690")
+		(property "Reference" "#PWR05"
+			(at 149.86 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 149.86 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 149.86 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29b5fa30-26c7-4e4a-a7e7-2508908931a5")
+		)
+		(instances
+			(project ""
+				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT3904")
+		(at 180.34 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b52860a-3ee6-4e3c-945c-e1a9acfd638c")
+		(property "Reference" "Q3"
+			(at 180.34 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBT3904"
+			(at 180.34 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 182.245 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6cd41711-f7b2-4a30-8f58-8c445e48fd93")
+		)
+		(pin "3"
+			(uuid "91efac97-6916-4454-8d2c-1aef1ac2b600")
+		)
+		(pin "1"
+			(uuid "b83af7f0-2c5b-48a4-a75e-52683d75b703")
+		)
+		(instances
+			(project "flir_blackfly_interface"
+				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -1793,6 +3046,74 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 208.28 24.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68178a4e-e825-483a-9d1f-d4c07c43c664")
+		(property "Reference" "R5"
+			(at 208.28 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Small_US"
+			(at 208.28 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 208.28 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "389b3854-329a-43e3-89b6-3ad59029dd92")
+		)
+		(pin "2"
+			(uuid "7a92ba17-8b08-4bbd-a780-048c653d06e3")
+		)
+		(instances
+			(project ""
+				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 106.68 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1853,6 +3174,214 @@
 			(project "flir_blackfly_interface"
 				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 194.31 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ba4cf4c-f128-4b90-a090-a92e78d9ffb9")
+		(property "Reference" "D1"
+			(at 195.8975 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 195.8975 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 194.31 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e63641cb-d9b5-42ad-b779-3409cb70a68d")
+		)
+		(pin "2"
+			(uuid "170baf6a-3ffc-4f32-b67f-c6d4b7b60d61")
+		)
+		(instances
+			(project ""
+				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT3904")
+		(at 180.34 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80954634-196d-4b0c-82d2-ae155eb8c0f4")
+		(property "Reference" "Q2"
+			(at 180.34 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBT3904"
+			(at 180.34 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 182.245 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+			(at 180.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 180.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2fe75f0d-6723-46a8-bca9-dbc5639e708f")
+		)
+		(pin "3"
+			(uuid "ec58f98e-7ddf-4ce3-8a60-5cdf1275e891")
+		)
+		(pin "1"
+			(uuid "8b2742db-aac5-4b92-bf6b-fab3e4899169")
+		)
+		(instances
+			(project "flir_blackfly_interface"
+				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 215.9 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8262ceac-2836-4ed4-a288-a50bc1230f49")
+		(property "Reference" "#PWR04"
+			(at 215.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 215.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 215.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2807172e-0e26-4551-b611-77df98885c11")
+		)
+		(instances
+			(project "flir_blackfly_interface"
+				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2121,6 +3650,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 208.28 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a54bc861-d065-4593-a7f5-0183ef3eb786")
+		(property "Reference" "R8"
+			(at 208.28 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Small_US"
+			(at 208.28 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 208.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7cb2e005-85f4-4281-af40-06110d8371a7")
+		)
+		(pin "2"
+			(uuid "5a216bbe-f6e1-45d1-ade9-08a022f08bfd")
+		)
+		(instances
+			(project "flir_blackfly_interface"
+				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
 		(at 106.68 43.18 0)
 		(unit 1)
@@ -2183,6 +3780,80 @@
 			(project "flir_blackfly_interface"
 				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT3904")
+		(at 180.34 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc1694f6-b337-4e65-866a-5a0296e32bad")
+		(property "Reference" "Q1"
+			(at 180.34 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBT3904"
+			(at 180.34 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 182.245 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+			(at 180.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 180.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "62bfb494-5a5b-47f8-a740-d450f454c48f")
+		)
+		(pin "3"
+			(uuid "5a47b297-1a6b-49f2-8517-4ce2642a0114")
+		)
+		(pin "1"
+			(uuid "81de5338-f8ac-4e53-b2ab-5cc36b64ea65")
+		)
+		(instances
+			(project ""
+				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -2314,6 +3985,74 @@
 			(project "flir_blackfly_interface"
 				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 194.31 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c55f8048-dfcb-48ac-a539-e53f946c9c70")
+		(property "Reference" "D3"
+			(at 195.8975 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 195.8975 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 194.31 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "805546f2-6847-459d-9e96-0ddcf6434b98")
+		)
+		(pin "2"
+			(uuid "d814b835-9ff1-4b0e-872f-369e21eaf698")
+		)
+		(instances
+			(project "flir_blackfly_interface"
+				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -2468,72 +4207,6 @@
 			(project "flir_blackfly_interface"
 				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 58.42 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7032554-fbef-42b3-be75-6c21cd86a3bf")
-		(property "Reference" "#PWR04"
-			(at 58.42 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 58.42 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 58.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa832c4b-680d-4fc7-992d-2f50e4010e53")
-		)
-		(instances
-			(project "flir_blackfly_interface"
-				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2737,6 +4410,80 @@
 			(project "flir_blackfly_interface"
 				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT3904")
+		(at 180.34 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f35fb218-fb6b-4065-be9a-6584944f1bb6")
+		(property "Reference" "Q4"
+			(at 180.34 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBT3904"
+			(at 180.34 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 182.245 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+			(at 180.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 180.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "375b115b-8399-4aa0-9da2-666c121e129d")
+		)
+		(pin "3"
+			(uuid "e83a1a95-1e9e-4f74-9b8e-a61fc8bf4753")
+		)
+		(pin "1"
+			(uuid "a882f9d6-33c1-4645-b5ec-ec53b90a73f7")
+		)
+		(instances
+			(project "flir_blackfly_interface"
+				(path "/58e6f0e8-060b-4d68-9863-6e19151cd1ee"
+					(reference "Q4")
 					(unit 1)
 				)
 			)

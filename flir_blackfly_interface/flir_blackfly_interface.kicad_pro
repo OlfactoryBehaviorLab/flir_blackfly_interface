@@ -430,7 +430,9 @@
     "pinned_footprint_libs": [
       "Library"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "library"
+    ]
   },
   "meta": {
     "filename": "flir_blackfly_interface.kicad_pro",

@@ -1,4 +1,4 @@
-23645532946589837
+23647260081819743
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64651,6 +64651,13 @@ OSHW_COPPER_10MM
 0
 22
 0
+Library
+SOT236
+
+
+0
+6
+6
 Library
 mouse_copper_25mm_15mm
 
