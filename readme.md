@@ -1,5 +1,7 @@
 # Flir Blackfly S Interface Board
 
+![image](image.jpg)
+
 The Flir Blackfly S series of cameras have a GPIO interface that is exposed via a military-style DIN connector. The FSU Psychology Instrument Development shop generously attached a section of Ethernet cable to the DIN connector. For flexibility, we attached a RJ-45 connector to the opposite end of the cable. Our behavioral controllers expose TTL-level IO via a series of BNC connectors. To facilitate easy connection of our behavioral controller IO to the camera GPIO, we created a small RJ-45 to BNC adapter board. 
 
 ## Design
