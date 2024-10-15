@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "58e6f0e8-060b-4d68-9863-6e19151cd1ee")
 	(paper "A4")
+	(title_block
+		(date "2024-10-15")
+		(rev "v1.1")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial_Small"
 			(pin_numbers hide)
